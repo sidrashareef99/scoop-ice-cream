@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+	<link rel="icon" type="image/x-icon" href="scoop_logo.ico">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="scoop.css">
+</head>
+
+<body>
+		
+	
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<a href="index.html"><img src="images/scoop_logo.png" id="logo" alt = "logo"></a>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="flavors.html">Flavors</a></li>
+			<li><a href="treats.html">Treats</a></li>
+			<li><a href="toppings.html">Toppings</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	
+	
+<div class="container contact">
+	
+<h1 id="contact-head">Contact Scoop</h1>
+	<p>Required information is marked with an asterisk (*).</p>
+	<form action="confirmation.html" method="post">
+
+	<div class="form-floating">
+	  <label for="first-name">*First Name</label>
+	  <input type="text" class="form-control" id="first-name" placeholder="First Name" required="required" pattern="[A-Za-z-0-9]+">
+	</div>
+		
+	<div class="form-floating">
+  		<label for="last-name">Last Name</label>
+		<input type="text" class="form-control" id="last-name" placeholder="Last Name" pattern="[A-Za-z]+">
+	</div>
+		
+	<div class="form-floating mb-3">
+	  <label for="email">*Email Address</label>
+	  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required="required" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+	</div>
+		<div class="form-floating mb-3">
+	  <label for="phone">Phone Number</label>
+	  <input type="tel" class="form-control" id="phone" placeholder="(000)-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+	</div>
+	<div class="form-floating">
+	  <label for="comments">*Comments</label>
+	  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" cols="20" rows="2" required="required"></textarea>
+	</div>
+
+	<input type="submit" value="Send" id="mySubmit">
+  </form>
+</div>
+	
+	<footer id="footer-text">
+	<p>Email:<a href="mailto:info@scoop.com"> info@scoop.com</a></p>	
+	<p>Copyright &copy 2022 Scoop Ice Cream</p>
+		
+	</footer >
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
